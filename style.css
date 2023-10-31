@@ -5,18 +5,39 @@ input [type="button"]{
     height: 100%;
     
 }
+.container shadow{
+    padding: 15px 2px;
+  
+    width: 100%;
+    
+}
 .container {
-    padding: 33px;
     background-color: #4d4d4d;
-    display: table;
     margin: auto;
+    display: table;
+   
 }
 
 input[type="button"] {
     font-size: 19px;
-    padding: 6px 29px;
+    padding: 6px 18px;
 }
 input#a {
-    padding: 10px 30px;
+    padding: 8px;
     font-size: 19px;
+}
+@media (max-width:600px){
+    .container{
+     
+        overflow: hidden;
+    }
+    
+    input#a {
+        padding: 5px;
+        font-size: 15px;
+    }
+    input[type="button"] {
+        font-size: 15px;
+        padding: 5px 7px;
+    }
 }
