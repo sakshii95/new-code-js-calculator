@@ -1,0 +1,26 @@
+nav.navbar.navbar-expand {
+    display: flex;
+}
+div#navbarNav {
+    display: flex;
+}
+
+
+ul.navbar-nav {
+    align-items: center;
+    display: flex;
+}
+
+.search-text {
+    align-items: center;
+    display: flex;
+}
+.video {
+    width: 100%;
+    margin-top: 3px;
+    border-radius: 8px;
+}
+.search-text {
+    align-items: center;
+    display: flex;
+}
